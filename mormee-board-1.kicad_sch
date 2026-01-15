@@ -135,6 +135,48 @@
 		)
 	)
 	(sheet
+		(at 191.77 45.72)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46acf3a4-b8c2-48d8-ad78-9dd52ca23724")
+		(property "Sheetname" "Battery"
+			(at 191.77 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 191.77 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 160.02 45.72)
 		(size 25.4 22.86)
 		(exclude_from_sim no)

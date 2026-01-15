@@ -629,6 +629,10 @@
     [
       "6e7d7bb5-6766-4f43-bc72-7d092cc246e2",
       "Power"
+    ],
+    [
+      "46acf3a4-b8c2-48d8-ad78-9dd52ca23724",
+      "Battery"
     ]
   ],
   "text_variables": {}

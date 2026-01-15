@@ -1940,6 +1940,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This was V_USB on the AMB82-Mini.\nChanged it to 3.3V rail\n"
+		(exclude_from_sim no)
+		(at 164.084 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22651f33-3a51-40a2-94fd-9263dd022a47")
+	)
 	(junction
 		(at 120.65 123.19)
 		(diameter 0)
@@ -4003,7 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB"
+		(property "Value" "+5V"
 			(at 116.332 42.926 0)
 			(effects
 				(font
@@ -4953,71 +4963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 162.56 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45b766a2-295d-4e82-9b9e-7f4c3ba70a8c")
-		(property "Reference" "#PWR076"
-			(at 162.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_USB"
-			(at 167.132 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8249d04a-a9dc-4d5f-b5d1-ef9553d85cfd")
-		)
-		(instances
-			(project "mormee-board-1"
-				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 162.56 119.38 0)
 		(unit 1)
@@ -5215,6 +5160,71 @@
 			(project ""
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52525d49-0af2-428e-88ca-ce6f43388aad")
+		(property "Reference" "#PWR076"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 166.37 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b5004c-bc4a-48f4-adc4-1691143c9c81")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB"
+		(property "Value" "+5V"
 			(at 37.592 30.734 0)
 			(effects
 				(font
@@ -7750,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB"
+		(property "Value" "+5V"
 			(at 117.602 102.616 0)
 			(effects
 				(font

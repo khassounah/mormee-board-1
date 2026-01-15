@@ -3499,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 135.89) (xy 123.19 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ac2f56-6a39-4013-b1fc-f8ca5459d10b")
+	)
+	(wire
+		(pts
 			(xy 57.15 69.85) (xy 68.58 69.85)
 		)
 		(stroke
@@ -3689,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 125.73 157.48)
+			(xy 125.73 135.89) (xy 125.73 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4639,16 +4649,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 135.89) (xy 123.19 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4eec860-2520-4126-8835-64a318b0459b")
-	)
-	(wire
-		(pts
 			(xy 143.51 21.59) (xy 143.51 24.13)
 		)
 		(stroke
@@ -5117,7 +5117,7 @@
 		)
 		(uuid "162b9f4a-0017-4906-bdc1-0af796e5c928")
 	)
-	(label "GPIOD_14"
+	(label "DMIC_CLK"
 		(at 100.33 158.75 90)
 		(effects
 			(font
@@ -5127,7 +5127,7 @@
 		)
 		(uuid "1cc20fe7-7452-4b06-8f52-e544d6c001d7")
 	)
-	(label "GPIOD_18"
+	(label "DMIC_DATA"
 		(at 110.49 158.75 90)
 		(effects
 			(font
@@ -5813,7 +5813,7 @@
 	)
 	(global_label "SEN_SYSCLK"
 		(shape input)
-		(at 127 162.56 270)
+		(at 97.79 163.83 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5823,7 +5823,7 @@
 		)
 		(uuid "620a2691-7877-428b-bb16-e649b1193869")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 177.2775 90)
+			(at 97.79 178.5475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,6 +5890,28 @@
 		(uuid "7c999877-548a-4b6b-b02f-38e079d9708f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.8882 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_SDA"
+		(shape input)
+		(at 125.73 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86229fc4-47b4-4f71-b297-5043f3b46a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 175.6447 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,6 +6242,28 @@
 		(uuid "f3616a18-ee50-4238-9e06-18057db1b2af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.3763 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_SCL"
+		(shape input)
+		(at 123.19 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f890aa1a-e2ed-4cad-860c-9890a0322d3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 175.5842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB"
+		(property "Value" "+5V"
 			(at 147.32 13.97 0)
 			(effects
 				(font
