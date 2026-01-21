@@ -1,4 +1,11 @@
-27128150070136697
+27145837845566253
+Adafruit
+Adafruit MEMS 3492
+
+
+0
+7
+5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59772,6 +59779,13 @@ ceramic
 0
 3
 3
+DM3BT-DSF-PEJS
+DM3BT-DSF-PEJS_HIR
+
+DM3BT-DSF-PEJS 
+0
+14
+14
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61795,6 +61809,34 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EVQP7C01P
+EVQP7C&slash_L_PAN
+
+EVQP7C01P 
+0
+4
+4
+FT232RNL
+SSOP-28_FTD
+
+FT232RNL-REEL 
+0
+28
+28
+FT232RNL
+SSOP-28_FTD-L
+
+FT232RNL-REEL 
+0
+28
+28
+FT232RNL
+SSOP-28_FTD-M
+
+FT232RNL-REEL 
+0
+28
+28
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -71441,6 +71483,13 @@ MAX17048G+T10
 0
 9
 9
+MP2637
+QFN-24_MP2637_MNP
+
+MP2637GR-P 
+0
+24
+24
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98321,6 +98370,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SPH0641
+SPH0641LM4H-1_KNO
+
+SPH0641LM4H-1 
+0
+6
+6
+SPH0641
+SPH0641LM4H-1_KNO-L
+
+SPH0641LM4H-1 
+0
+6
+6
+SPH0641
+SPH0641LM4H-1_KNO-M
+
+SPH0641LM4H-1 
+0
+6
+6
 SRN4018-2R2M
 IND_BOURNS_SRN4018
 
@@ -106637,6 +106707,13 @@ igbt diode module
 0
 25
 25
+USB4105-GF-A
+USB4105_GCT
+
+USB4105-GF-A 
+0
+12
+12
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -107442,10 +107519,3 @@ W25Q128JVSIQ
 0
 8
 8
-footprints
-QFN-24_MP2637_MNP
-
-MP2637GR-P 
-0
-24
-24
