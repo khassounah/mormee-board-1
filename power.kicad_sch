@@ -615,6 +615,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2140,6 +2247,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 146.05) (xy 254 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0891f03e-ad64-47f0-9775-8ea5716ad801")
+	)
+	(wire
+		(pts
 			(xy 107.95 93.98) (xy 135.89 93.98)
 		)
 		(stroke
@@ -2340,6 +2457,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 146.05) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30903012-51bb-41a6-bc9a-517df9c9ee7f")
+	)
+	(wire
+		(pts
 			(xy 233.68 71.12) (xy 233.68 73.66)
 		)
 		(stroke
@@ -2357,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "3864635a-e70d-49ba-921d-c2ca87daf2c7")
+	)
+	(wire
+		(pts
+			(xy 190.5 151.13) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39320f56-d6be-45e1-8120-f0e6b542a972")
 	)
 	(wire
 		(pts
@@ -2437,6 +2574,16 @@
 			(type default)
 		)
 		(uuid "4578d7b2-ab17-4b96-b266-7ec813828c9a")
+	)
+	(wire
+		(pts
+			(xy 200.66 146.05) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46030a86-d3a5-4e7b-a86d-20abfa956b99")
 	)
 	(wire
 		(pts
@@ -2557,6 +2704,16 @@
 			(type default)
 		)
 		(uuid "6071e915-53fc-494b-880b-d71b86bb0b88")
+	)
+	(wire
+		(pts
+			(xy 215.9 146.05) (xy 215.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621ca65c-78c1-44ea-a89f-23225ed49500")
 	)
 	(wire
 		(pts
@@ -2967,6 +3124,16 @@
 			(type default)
 		)
 		(uuid "a9b7ce10-d0dc-486d-a97f-adb68c70c92d")
+	)
+	(wire
+		(pts
+			(xy 228.6 146.05) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0fef7c-da91-4dfa-bff1-61452db0bc7c")
 	)
 	(wire
 		(pts
@@ -3514,7 +3681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/10V"
+		(property "Value" "0.1uF"
 			(at 51.054 101.092 0)
 			(effects
 				(font
@@ -3633,6 +3800,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 241.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "053f7ae8-29d0-4f0d-84ce-743674ca5b4d")
+		(property "Reference" "#PWR0134"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SEN_2V8"
+			(at 246.888 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eebfe9ee-55e7-41a9-b26f-01bf6eb8dde5")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 233.68 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3691,6 +3923,71 @@
 			(project "mormee-board-1"
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VD")
+		(at 200.66 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07f58d86-15b4-483d-ad17-85deff98520f")
+		(property "Reference" "#PWR029"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_DDR"
+			(at 207.264 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98ef758-abde-4edd-99f5-6e3e546d2b29")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3843,6 +4140,71 @@
 			(project ""
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c02511c-5558-4a80-9700-da71c13c770a")
+		(property "Reference" "#PWR042"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SEN_1V8"
+			(at 234.188 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16a54bf1-1bef-4380-ab50-75a78e019a0e")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4061,6 +4423,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109f7743-d898-4069-9ab0-928b1cf11a37")
+		(property "Reference" "TP2"
+			(at 243.84 151.8919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+2.8V_TP"
+			(at 237.744 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8b59a36-75de-45fb-b210-d967abb3c244")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 74.93 0)
 		(unit 1)
@@ -4210,7 +4638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 116.078 51.562 0)
 			(effects
 				(font
@@ -4256,6 +4684,72 @@
 			(project "mormee-board-1"
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1966e167-2910-4666-b8ad-598a2215d16e")
+		(property "Reference" "TP5"
+			(at 218.44 151.8919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+1.2V_TP"
+			(at 213.106 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee67e0f0-63ab-436d-92e5-1cf4cdbecc1e")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4346,7 +4840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF"
 			(at 106.68 147.3262 0)
 			(effects
 				(font
@@ -4416,7 +4910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 237.49 43.1862 0)
 			(effects
 				(font
@@ -4486,7 +4980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 219.71 91.4462 0)
 			(effects
 				(font
@@ -4626,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 236.22 113.0362 0)
 			(effects
 				(font
@@ -4762,7 +5256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF"
 			(at 92.71 147.3262 0)
 			(effects
 				(font
@@ -4832,7 +5326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 165.1 50.8062 0)
 			(effects
 				(font
@@ -4878,6 +5372,138 @@
 			(project "mormee-board-1"
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37112898-5257-4799-9554-92b2073d682c")
+		(property "Reference" "TP1"
+			(at 256.54 151.8919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3.3V_TP"
+			(at 250.698 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 248.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0023de9f-2af5-46e9-9b18-70e6b174132a")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3916e713-339c-4416-88c1-71db822edfa4")
+		(property "Reference" "TP9"
+			(at 187.96 145.2881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 193.294 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57798bc0-8b02-41ab-a59c-24b49a9226fc")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4981,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 165.1 120.6562 0)
 			(effects
 				(font
@@ -5380,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/10V"
+		(property "Value" "0.1uF"
 			(at 103.378 51.562 0)
 			(effects
 				(font
@@ -5566,6 +6192,72 @@
 			(project "mormee-board-1"
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6571ccfb-32a8-4ed4-a5c1-dd98f94bb806")
+		(property "Reference" "TP4"
+			(at 203.2 151.8919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VDD_DDR_TP"
+			(at 196.85 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5d5c8c6-cf5f-488c-9094-278c7a4d9ba6")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5782,6 +6474,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70106b60-2ae2-41f5-a9c3-4053ceae4092")
+		(property "Reference" "TP3"
+			(at 231.14 151.8919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+1.8V_TP"
+			(at 225.298 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf3977ad-b711-4db7-b1e8-77dbee197e24")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75dd9616-e795-4761-9615-0ee088975ed7")
+		(property "Reference" "#PWR0138"
+			(at 190.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c5f241-8c87-4325-a1e7-7f44e8230b40")
+		)
+		(instances
+			(project ""
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 233.68 81.28 0)
 		(unit 1)
@@ -5865,7 +6689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 165.1 85.0962 0)
 			(effects
 				(font
@@ -6272,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 236.22 77.4762 0)
 			(effects
 				(font
@@ -6475,7 +7299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF"
 			(at 91.44 72.3962 0)
 			(effects
 				(font
@@ -6545,7 +7369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 219.71 57.1562 0)
 			(effects
 				(font
@@ -6614,7 +7438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/10V"
+		(property "Value" "0.1uF"
 			(at 49.784 41.402 0)
 			(effects
 				(font
@@ -6684,7 +7508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 219.71 127.0062 0)
 			(effects
 				(font
@@ -7225,7 +8049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF"
 			(at 105.41 72.3962 0)
 			(effects
 				(font
@@ -7271,6 +8095,136 @@
 			(project ""
 				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 215.9 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1399e40-a4de-4a82-a0b8-76ac5f3b504a")
+		(property "Reference" "#PWR043"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SEN_1V2"
+			(at 221.742 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7773676-6d54-4315-80df-e538b7d5a3d2")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c335c006-a565-49df-b724-ff979a0228f6")
+		(property "Reference" "#PWR031"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 257.81 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd6efcf-16b0-4f98-9d64-daadf88863c3")
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396/6e7d7bb5-6766-4f43-bc72-7d092cc246e2"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7430,7 +8384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/10V"
+		(property "Value" "2.2uF"
 			(at 117.348 111.252 0)
 			(effects
 				(font
@@ -7891,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/10V"
+		(property "Value" "0.1uF"
 			(at 104.648 111.252 0)
 			(effects
 				(font
