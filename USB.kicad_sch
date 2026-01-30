@@ -3710,7 +3710,7 @@
 		(uuid "89133fa8-3e57-4dbb-a15c-5b36addbf4d5")
 	)
 	(junction
-		(at 93.98 124.46)
+		(at 120.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fc21b44-5af4-4775-b060-73517b66baa3")
@@ -3831,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 95.25 121.92)
+			(xy 116.84 118.11) (xy 121.92 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4031,7 +4031,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 93.98 124.46)
+			(xy 116.84 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4111,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 129.54) (xy 95.25 129.54)
+			(xy 118.11 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4121,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 95.25 124.46)
+			(xy 120.65 120.65) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 132.08) (xy 95.25 132.08)
+			(xy 118.11 128.27) (xy 121.92 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4891,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 93.98 124.46)
+			(xy 120.65 123.19) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 127) (xy 93.98 127)
+			(xy 121.92 123.19) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5459,6 +5459,27 @@
 		)
 		(uuid "252d5fd2-e9e3-4d0d-99e3-89aa0d088bb1")
 	)
+	(label "SD_3V3"
+		(at 86.36 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fc66b01-bf4a-4708-9952-03d923b22bdc")
+		(property "Netclass" "Power"
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "SD_D2"
 		(at 133.35 71.12 0)
 		(effects
@@ -5468,16 +5489,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f04e326-4027-4391-85ae-6731dc7fdbb7")
-	)
-	(label "DMIC_CLK"
-		(at 91.44 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f30044c-246e-4994-8bcc-5a8e5aca27e8")
 	)
 	(label "SD_D3"
 		(at 133.35 73.66 0)
@@ -5498,16 +5509,6 @@
 			(justify left bottom)
 		)
 		(uuid "865f00c4-18b5-4529-8d7c-ff96e6d53120")
-	)
-	(label "DMIC_DATA"
-		(at 91.44 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89e37be8-2455-4372-abd0-c9b878026f74")
 	)
 	(label "RESETB"
 		(at 204.47 34.29 0)
@@ -5612,6 +5613,28 @@
 		(uuid "1362fdba-7e32-4845-a266-597fd22c2d38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.4334 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DMIC_DATA"
+		(shape input)
+		(at 118.11 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2168761b-0895-48fc-bad2-3bd33972216e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.1462 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,6 +6031,28 @@
 		(uuid "a5982ea2-0356-459d-a1c6-7a6bd329acdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.6982 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DMIC_CLK"
+		(shape input)
+		(at 118.11 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2bb1e95-b6d9-46a5-8731-dcc8d7e45455")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9929 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7394,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 124.46 0)
+		(at 116.84 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7357,7 +7402,7 @@
 		(dnp no)
 		(uuid "48678219-3c1a-4ef7-a677-b4cfae218a06")
 		(property "Reference" "#PWR041"
-			(at 90.17 130.81 0)
+			(at 116.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 125.476 0)
+			(at 113.03 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 124.46 0)
+			(at 116.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 124.46 0)
+			(at 116.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 124.46 0)
+			(at 116.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +8916,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 100.33 127 0)
+		(at 127 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8880,7 +8925,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba5a4fc8-55d1-4f94-b1b5-2b1699fe1fb7")
 		(property "Reference" "J1"
-			(at 102.87 125.7299 0)
+			(at 129.54 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +8934,7 @@
 			)
 		)
 		(property "Value" "PDM MEMS Mic"
-			(at 102.87 128.2699 0)
+			(at 129.54 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8943,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit:Adafruit MEMS 3492"
-			(at 100.33 127 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 127 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8961,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 127 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9470,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 121.92 0)
+		(at 116.84 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9433,7 +9478,7 @@
 		(dnp no)
 		(uuid "cfcac841-3c06-4695-a203-94d3a8ed04bd")
 		(property "Reference" "#PWR040"
-			(at 90.17 125.73 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,7 +9487,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 86.106 120.904 0)
+			(at 112.776 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 121.92 0)
+			(at 116.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 121.92 0)
+			(at 116.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 121.92 0)
+			(at 116.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
