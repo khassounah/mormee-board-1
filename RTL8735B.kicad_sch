@@ -5765,7 +5765,7 @@
 			)
 		)
 	)
-	(global_label "DS_D2"
+	(global_label "SD_D2"
 		(shape input)
 		(at 50.8 82.55 180)
 		(fields_autoplaced yes)
