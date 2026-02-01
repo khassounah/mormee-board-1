@@ -1,4 +1,4 @@
-27147625452727551
+27149395458111004
 Adafruit
 Adafruit MEMS 3492
 
@@ -63132,6 +63132,13 @@ heatsink
 0
 0
 0
+IMP34DT05TR
+IMP34DT05TR
+HCLGA (3 x 4 x 1 mm) 4-lead
+Microphone
+0
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
