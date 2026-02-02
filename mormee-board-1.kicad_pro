@@ -687,7 +687,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "gerber-mormee-v1_0/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
