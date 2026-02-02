@@ -1,4 +1,4 @@
-27149395458111004
+27151165478602572
 Adafruit
 Adafruit MEMS 3492
 
@@ -6,6 +6,13 @@ Adafruit MEMS 3492
 0
 7
 5
+Alignment
+MountingHole_1mm
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
