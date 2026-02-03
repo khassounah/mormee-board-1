@@ -6670,7 +6670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44.RES_0603_1%_2K"
+		(property "Value" "2K_1%"
 			(at 120.65 64.7699 0)
 			(effects
 				(font
