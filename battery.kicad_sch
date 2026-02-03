@@ -4784,7 +4784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_BOURNS_SRN4018"
+		(property "Footprint" "SRN4018-2R2M:IND_BOURNS_SRN4018"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0168E_T822-3_MXM"
+		(property "Footprint" "MAX17048G-T10:21-0168E_T822-3_MXM"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -6821,7 +6821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN-24_MP2637_MNP"
+		(property "Footprint" "MP2637:QFN-24_MP2637_MNP"
 			(at 60.96 95.25 0)
 			(effects
 				(font

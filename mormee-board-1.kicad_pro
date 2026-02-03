@@ -894,7 +894,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "h",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
@@ -965,6 +965,10 @@
     [
       "46acf3a4-b8c2-48d8-ad78-9dd52ca23724",
       "Battery"
+    ],
+    [
+      "3e5da7ae-7faa-43d3-ae01-a33e7fc47e84",
+      "Holes  Markers"
     ]
   ],
   "text_variables": {}

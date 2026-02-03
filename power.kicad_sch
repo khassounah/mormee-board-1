@@ -4000,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_BOURNS_SRN4018"
+		(property "Footprint" "SRN4018-2R2M:IND_BOURNS_SRN4018"
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -4968,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_BOURNS_SRN4018"
+		(property "Footprint" "SRN4018-2R2M:IND_BOURNS_SRN4018"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSOT-23-5_RIT"
+		(property "Footprint" "RTL9080:TSOT-23-5_RIT"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -6200,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSOT-23-5_RIT"
+		(property "Footprint" "RTL9080:TSOT-23-5_RIT"
 			(at 173.99 116.84 0)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSOT-23-5_RIT"
+		(property "Footprint" "RTL9080:TSOT-23-5_RIT"
 			(at 173.99 81.28 0)
 			(effects
 				(font

@@ -7127,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_128JVSIQ_WIN"
+		(property "Footprint" "W25Q128JVSIQ:SOIC_128JVSIQ_WIN"
 			(at 33.02 184.15 0)
 			(effects
 				(font

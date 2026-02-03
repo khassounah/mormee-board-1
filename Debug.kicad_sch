@@ -3703,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4105_GCT"
+		(property "Footprint" "USB4105-GF-A:USB4105_GCT"
 			(at 48.26 45.72 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSOP-28_FTD"
+		(property "Footprint" "FT232RNL:SSOP-28_FTD"
 			(at 152.4 36.83 0)
 			(effects
 				(font

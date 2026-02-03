@@ -135,6 +135,48 @@
 		)
 	)
 	(sheet
+		(at 224.79 45.72)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e5da7ae-7faa-43d3-ae01-a33e7fc47e84")
+		(property "Sheetname" "Holes  Markers"
+			(at 224.79 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 224.79 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mormee-board-1"
+				(path "/d2af8ba6-fbfa-439f-91d9-67827f3f2396"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 191.77 45.72)
 		(size 26.67 24.13)
 		(exclude_from_sim no)

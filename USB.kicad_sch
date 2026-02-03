@@ -7977,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM3BT-DSF-PEJS_HIR"
+		(property "Footprint" "DM3BT-DSF-PEJS:DM3BT-DSF-PEJS_HIR"
 			(at 74.93 39.37 0)
 			(effects
 				(font
@@ -8150,7 +8150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMP34DT05TR"
+		(property "Footprint" "IMP34DT05TR:IMP34DT05TR"
 			(at 133.35 267.64 0)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMP34DT05TR"
+		(property "Footprint" "IMP34DT05TR:IMP34DT05TR"
 			(at 133.35 235.89 0)
 			(effects
 				(font
@@ -11941,7 +11941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON24_1X24_DB_JST"
+		(property "Footprint" "JST 24FLZ-SM2-TB:CON24_1X24_DB_JST"
 			(at 247.65 26.67 0)
 			(effects
 				(font
