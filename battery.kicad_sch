@@ -4699,15 +4699,15 @@
 				)
 			)
 		)
-		(property "Value" "LED_2012_RED"
-			(at 26.162 92.964 0)
+		(property "Value" "RED LED"
+			(at 25.146 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 24.13 96.52 0)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF_10V"
+		(property "Value" "0.1uF_10V"
 			(at 101.6 128.778 0)
 			(effects
 				(font
@@ -7135,15 +7135,15 @@
 				)
 			)
 		)
-		(property "Value" "LED_2012_BLUE"
-			(at 26.924 103.378 0)
+		(property "Value" "BLUE LED"
+			(at 26.416 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 24.13 100.33 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 30.734 106.426 0)
+			(at 36.83 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF_10V"
+		(property "Value" "0.1uF_10V"
 			(at 127 125.7362 0)
 			(effects
 				(font
