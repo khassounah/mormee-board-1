@@ -3887,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K_1%"
 			(at 67.056 137.16 0)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.786 136.144 90)
 			(effects
 				(font
@@ -4021,7 +4021,7 @@
 				)
 			)
 		)
-		(property "Value" "2.1K"
+		(property "Value" "2.1K_1%"
 			(at 128.778 113.03 90)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.984 109.474 90)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF_10V"
 			(at 37.084 47.244 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120pF"
+		(property "Value" "120pF_10V"
 			(at 39.37 115.316 0)
 			(effects
 				(font
@@ -4298,7 +4298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 113.03 0)
 			(effects
 				(font
@@ -4425,7 +4425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF_10V"
 			(at 124.46 95.2562 0)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "23.7K"
+		(property "Value" "23.7K_1%"
 			(at 139.7 116.8399 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.176 115.824 90)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K_1%"
 			(at 36.83 129.5399 0)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.306 128.524 90)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "LED_2012_RED"
 			(at 26.162 92.964 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90K"
+		(property "Value" "90K_1%"
 			(at 118.11 128.2699 0)
 			(effects
 				(font
@@ -4921,7 +4921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.586 127.254 90)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 				)
 			)
 		)
-		(property "Value" "2.1K"
+		(property "Value" "2.1K_1%"
 			(at 37.084 93.726 90)
 			(effects
 				(font
@@ -5054,7 +5054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.544 95.504 90)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1K_1%"
 			(at 139.7 126.9999 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.176 125.984 90)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "147K"
+		(property "Value" "147K_1%"
 			(at 42.672 133.858 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.546 132.334 90)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF_10V"
 			(at 101.6 128.778 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "15K_1%"
 			(at 25.4 120.6499 0)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 23.876 119.634 90)
 			(effects
 				(font
@@ -5811,7 +5811,7 @@
 				)
 			)
 		)
-		(property "Value" "2.1K"
+		(property "Value" "2.1K_1%"
 			(at 37.338 103.124 90)
 			(effects
 				(font
@@ -5819,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.544 99.314 90)
 			(effects
 				(font
@@ -5879,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "147K"
+		(property "Value" "147K_1%"
 			(at 55.626 133.35 0)
 			(effects
 				(font
@@ -5888,7 +5888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.356 132.334 90)
 			(effects
 				(font
@@ -5948,7 +5948,7 @@
 				)
 			)
 		)
-		(property "Value" "20m - WSL1206R0200FEA"
+		(property "Value" "WSL1206R0200FEA"
 			(at 52.07 88.9 90)
 			(effects
 				(font
@@ -6070,7 +6070,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ad2d5e05-e0fa-48e1-8162-aa20ec76475a")
 		(property "Reference" "TP7"
 			(at 180.34 104.9019 0)
@@ -6344,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.6K"
+		(property "Value" "31.6K_1%"
 			(at 27.178 114.046 0)
 			(effects
 				(font
@@ -6353,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.306 113.284 90)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1K_1%"
 			(at 25.4 130.8099 0)
 			(effects
 				(font
@@ -6489,7 +6489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 23.876 129.794 90)
 			(effects
 				(font
@@ -6670,7 +6670,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cded3a89-fcb4-48cb-9bd9-61a5106a39bf")
 		(property "Reference" "TP8"
 			(at 189.23 104.9019 0)
@@ -6950,7 +6950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S2B-PH-SM4-TB_LF__SN_"
+		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 160.02 49.5299 0)
 			(effects
 				(font
@@ -7135,7 +7135,7 @@
 				)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "LED_2012_BLUE"
 			(at 26.924 103.378 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K_1%"
 			(at 67.056 147.32 0)
 			(effects
 				(font
@@ -7483,7 +7483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.786 146.304 90)
 			(effects
 				(font
@@ -7544,7 +7544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF_10V"
 			(at 127 125.7362 0)
 			(effects
 				(font
@@ -7553,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Value" "2.1K"
+		(property "Value" "2.1K_1%"
 			(at 129.032 105.664 90)
 			(effects
 				(font
@@ -7686,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.476 108.966 90)
 			(effects
 				(font
